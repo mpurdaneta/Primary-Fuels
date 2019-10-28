@@ -1,0 +1,6 @@
+HW4
+a) Translate equations from Homework I into GAMS
+b) Create the model (e.g. model ebgn632 /all/)
+c) Solve the model (e.g. solve ebgn632 using LP minimizing Z)
+d) Commit the new files to github
+e) Please send me your .gms file (or a zip/tar if you are loading data) and the link to your git repo 
