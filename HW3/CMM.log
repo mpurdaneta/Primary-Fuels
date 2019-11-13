@@ -1,0 +1,25 @@
+
+--- Job CMM.gms Start 11/12/19 19:13:43 28.2.0 r750fa45 WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input Z:\adit\Desktop\2019-2\Primary Fuels\Gams Model\CMM.gms
+    PageWidth 80
+    PageSize 0
+    PageContr 3
+    Action CE
+    ScrDir Z:\adit\My Documents\gamsdir\projdir\225a\
+    SysDir C:\GAMS\win64\28.2\
+    WorkDir Z:\adit\My Documents\gamsdir\projdir\
+    LogOption 3
+    DFormat 0
+    TFormat 0
+    ErrorLog 99
+    IDE 1
+GAMS 28.2.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: GAMS Development Corporation, USA              G871201/0000CA-ANY
+          Free Demo, +1 202-342-0180, support@gams.com, www.gams.com DC0000
+--- Starting compilation
+--- CMM.gms(209) 3 Mb
+--- Starting execution: elapsed 0:00:00.016
+--- CMM.gms(191) 4 Mb
+*** Status: Normal completion
+--- Job CMM.gms Stop 11/12/19 19:13:43 elapsed 0:00:00.021
