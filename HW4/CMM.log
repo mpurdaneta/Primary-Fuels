@@ -1,0 +1,57 @@
+
+--- Job CMM.gms Start 11/12/19 19:21:12 28.2.0 r750fa45 WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input Z:\adit\Desktop\2019-2\Primary Fuels\Gams Model\CMM.gms
+    PageWidth 80
+    PageSize 0
+    PageContr 3
+    Action CE
+    ScrDir Z:\adit\My Documents\gamsdir\projdir\225a\
+    SysDir C:\GAMS\win64\28.2\
+    WorkDir Z:\adit\My Documents\gamsdir\projdir\
+    LogOption 3
+    DFormat 0
+    TFormat 0
+    ErrorLog 99
+    IDE 1
+GAMS 28.2.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: GAMS Development Corporation, USA              G871201/0000CA-ANY
+          Free Demo, +1 202-342-0180, support@gams.com, www.gams.com DC0000
+--- Starting compilation
+--- CMM.gms(219) 3 Mb
+--- Starting execution: elapsed 0:00:00.017
+--- CMM.gms(190) 4 Mb
+--- Generating LP model CMM
+--- CMM.gms(201) 4 Mb
+---   1 rows  1 columns  1 non-zeroes
+--- Executing CPLEX: elapsed 0:00:00.047
+
+IBM ILOG CPLEX   28.2.0 r750fa45 Released Aug 19, 2019 WEI x86 64bit/MS Window
+Cplex 12.9.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+CPXPARAM_Advance                                 0
+CPXPARAM_Simplex_Display                         2
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_Simplex_Limits_Iterations               2000000000
+CPXPARAM_TimeLimit                               1000
+CPXPARAM_Tune_TimeLimit                          200
+Tried aggregator 1 time.
+LP Presolve eliminated 1 rows and 1 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.00 ticks)
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.00 ticks)
+
+Optimal solution found.
+Objective :       53178.491178
+
+--- Restarting execution
+--- CMM.gms(201) 2 Mb
+--- Reading solution for model CMM
+*** Status: Normal completion
+--- Job CMM.gms Stop 11/12/19 19:21:13 elapsed 0:00:00.374
